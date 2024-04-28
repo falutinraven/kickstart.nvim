@@ -12,8 +12,18 @@ A starting point for Neovim that is:
 
 ## Installation
 
-### Install Neovim
+#### Linux Install
+<details><summary>Ubuntu Install Steps</summary>
 
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt update
+sudo apt install make gcc ripgrep unzip git neovim
+```
+</details>
+
+### Other Info
+<details>
 Kickstart.nvim targets *only* the latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
@@ -34,6 +44,8 @@ External Requirements:
 > **NOTE**
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
 > and quick install snippets
+
+</details>
 
 ### Install Kickstart
 
@@ -154,17 +166,6 @@ sudo apt install make gcc ripgrep unzip neovim
 ```
 </details>
 
-#### Linux Install
-<details><summary>Ubuntu Install Steps</summary>
-
-```
-sudo add-apt-repository ppa:neovim-ppa/unstable -y
-sudo apt update
-sudo apt install make gcc ripgrep unzip git neovim
-```
-</details>
-
 sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
-</details>
 
